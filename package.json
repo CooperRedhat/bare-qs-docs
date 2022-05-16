@@ -1,0 +1,17 @@
+{
+  "name": "bare-qs-docs",
+  "version": "0.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@patternfly/quickstarts": "^2.2.3"
+  },
+  "scripts": {
+    "docs": "pf-docs start",
+    "docs:generate": "pf-docs generate"
+  },
+  "dependencies": {
+    "bare-qs-docs": "^0.0.1",
+    "theme-patternfly-org-standalone-alt": "^0.0.6"
+  }
+}
